@@ -111,6 +111,7 @@
           var name = resp.result.names[0].givenName;
           p.appendChild(document.createTextNode('Hello, '+name+'!'));
           document.getElementById('content').appendChild(p);
+          window.open("https://erguille.github.io/epl/?user="+name,"_self");
         });
       }
     </script>
